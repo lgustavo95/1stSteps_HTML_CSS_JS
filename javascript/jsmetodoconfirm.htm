@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>javascript-método confirm()</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/* Objetivo: desenvolver um programa que faça o teste de execução de duas opções.
+		utilizando o método confirm, verificar o botão selecionado pelo usuário e apresentar a opção selecionada. */
+
+		//definição de variáveis
+		var js_resp;
+
+		//após o botão selecionado, js_resp receberá um valor lógico true ou false, capturado pelo método confirm
+		js_resp = window.confirm('Clique em um dos dois botões. ');
+
+		//decisão condicional composta if/else comparado ao valor lógico true
+		if (js_resp == true){
+			document.write('Você acionou o botão: <strong>OK</strong> !!!');
+		}
+		else{
+			document.write('Você acionou o botão: <strong>Cancelar</strong> !!!');
+		}
+
+	</script>
+
+</body>
+</html>

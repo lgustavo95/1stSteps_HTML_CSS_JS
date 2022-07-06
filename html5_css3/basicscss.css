@@ -1,0 +1,28 @@
+/*trabalhando com css externo ou linkado*/
+
+  p{
+	color: darkblue;
+	font-size: 25px;
+}
+  
+  body,html{
+    height: 100%;
+    margin: 0;
+    color: darkblue;
+    font-size: 25px;
+  }
+
+  ul{
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url(); /*define se a lista terá imagem no lugar de ponto ou letras.*/
+  }
+
+  .bg{
+    background-image: url(bolas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+

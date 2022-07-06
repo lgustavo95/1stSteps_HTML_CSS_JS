@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Code - desenvolvimento de site</title>
+  <link rel="stylesheet" type="text/css" href="folhadeestilo.css">
+</head>
+
+<body>
+	<div class="container-principal">
+		<header> <!--O objetivo da tag header é encabeçar o conteúdo do site. Assim como as divs, a tag <header> é o container para outros elementos-->
+			<div class="logo">
+				<a href="index.html">
+					<img src="logolight.png" alt="logo social">
+				</a>
+			</div>
+			<nav> <!--objetivo da tag nav é concentrar os links que forman a navegação do site-->
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="clientes.html">Clientes</a></li>
+					<li><a href="sobre.html">sobre</a></li>
+					<li><a href="contato.html">Contatos</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="banner">
+			<img src="banner.png" alt="banner topo">
+		</section>
+	</div>
+
+	<div id="openmodal" class="modaldialog">
+		<div>
+			<a href="#close" class="close">X</a>
+			<h1>Tudo sobre HTML</h1>
+			<p><strong>HTML</strong> <i>(abreviação inglesa HiperText Markup Language, que significa Linguagem de Marcação de HiperTexto)</i> é uma linguagem de marcação utilizada na construção de páginas na Web. Documenetos HTML podem ser interpretados por navegadores. -<i>wikipedia.com - acesso em 09/09/2021</i></p>
+			<img src="html.png" alt="logo hmtl5">
+		</div>
+	</div>
+
+	<div id="openmodal1" class="modaldialog">
+		<div>
+			<a href="#close" class="close">X</a>
+			<h1>Tecnologia da informação</h1>
+			<p>TI é um conjunto de todas as atividades e soluções providas por recursos de computação que visam a produção, o armazenamento, a transmissão, o acesso, a segurança e o uso das informações. Na verdade, as aplicações para TI são tantas — e estão ligadas a tantas áreas — que há diversas definições para a expressão e nenhuma delas consegue determiná-la por completo. É a área da informática que trata a informação, a organização e a classificação de forma a permitir a tomada de decisão em prol de algum objetivo.</p>
+			<img src="ti.jpg" alt="logo TI">
+		</div>
+	</div>
+
+	<div id="openmodal2" class="modaldialog">
+		<div>
+			<a href="#close" class="close">X</a>
+			<h1>Java</h1>
+			<p> Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation. Diferente das linguagens de programação modernas, que são compiladas para código nativo, a linguagem Java é compilada para um bytecode que é interpretado por uma máquina virtual (Java Virtual Machine, mais conhecida pela sua abreviação JVM). A linguagem de programação Java é a linguagem convencional da Plataforma Java, mas não é a sua única linguagem. J2ME Para programas e jogos de computador, celular, calculadoras, ou até mesmo o rádio do carro.</p>
+			<img src="java2.png" alt="logo java">
+		</div>
+	</div>
+    
+    <!--rodapé da página-->
+		<footer>
+			<div class="footer-text">
+				<h3>HTML</h3>
+				<p>Conheça mais sobre Web delelopment com html e muito mais. - <a href="#openmodal">clique aqui</a></p>	
+			</div>
+
+			<div class="footer-text">
+				<h3>Tecnologia da informação</h3>
+				<p>Saiba tudo sobre a area que mais cresce no mundo. - <a href="#openmodal1">clique aqui</a></p>	
+			</div>
+
+			<div class="footer-text">
+				<h3>Java</h3>
+				<p>Saiba mais sobre essa linguagem de prohramação. - <a href="#openmodal2">clique aqui</a></p>	
+			</div>
+		</footer>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>javascript-condição IF</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/* Objetivo: ler 2 valores, independentemente da ordem em que foram digitados, e apresentá-los em ordem crescente.
+		Será necessário efetuar a troca de valores, por isso, recomendamos definir uma terceira variável. */
+
+		//definição de variáveis
+		var js_n1;
+		var js_n2;
+		var js_n3;
+
+		//entrada de dados
+		js_n1= parseInt(window.prompt('Informe o valor do primeiro número: ', '00'));
+		js_n2= parseInt(window.prompt('Informe o valor do segundo número: ', '00'));
+
+		//saída de dados sem classificação
+		document.write('número 1 digitado = ' + js_n1);
+		document.write('<br>número 2 digitado = ' + js_n2);
+
+		//saída de dados com classificação
+		if (js_n1>js_n2) {
+			js_n3 = js_n1;
+			js_n1 = js_n2;
+			js_n2 = js_n3;
+		}
+
+		document.write('<p><b>Classificação em ordem Crescente:</b> ' + js_n1 + ' e ' + js_n2);
+
+	</script>
+
+</body>
+</html>
